@@ -1,0 +1,25 @@
+3-2 Install Git, Create GitHub Repository
+	
+	=> Repository: A repository (or repo) is a type of centrally located 	storage where you can keep all your project’s files and resources. Any of the project’s stakeholders or 	developers can pull your repository’s code 	(or resource) for new feature delivery or bug fixes in the product or 	software application.
+
+	You can think about the repository as a folder created on the cloud. The 	folder contains a set of programming files that collectively make an 	application. Repositories have 	many features like adding, deleting or 	modifying files. Other key features include versioning, information about 	who created and updated the files, and at what time they were 	created. All 	of these features make repositories easy to work with and contribute to the repository in order to build high-quality products. 
+
+
+	=> create a new repository on the command line
+
+	echo "# my-first-repos" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/didarulislam01833/my-first-repos.git
+	git push -u origin main
+
+	…=> or push an existing repository from the command line
+	git remote add origin https://github.com/didarulislam01833/my-first-repos.git
+	git branch -M main
+	git push -u origin main
+
+	*cd.. to change directory
+
+3-3 	Introduction To Git Init, Git Add, Git Commit
