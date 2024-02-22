@@ -23,3 +23,13 @@
 	*cd.. to change directory
 
 3-3 	Introduction To Git Init, Git Add, Git Commit
+3-4 	Set Origin, Git Push, Git Pull, And Repo Overview
+
+	******First time when you will commmit:
+	
+	 Run
+
+ 	 git config --global user.email "you@example.com"
+  	 git config --global user.name "Your Name"
+
+3-5 Send Small Incremental Changes To Github
