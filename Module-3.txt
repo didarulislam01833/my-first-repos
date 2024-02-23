@@ -33,3 +33,9 @@
   	 git config --global user.name "Your Name"
 
 3-5 Send Small Incremental Changes To Github
+
+	=> command: 
+	git add . (
+	git commit -m "first commit"
+	git push
+	
