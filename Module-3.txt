@@ -35,7 +35,9 @@
 3-5 Send Small Incremental Changes To Github
 
 	=> command: 
-	git add . (
+	git add . 
 	git commit -m "first commit"
 	git push
+
+3-6 Host Simple Website In GitHub Using Gh-Pages
 	
